@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Homepage</title>
+    </head>
+    <body>
+        <header>
+            <h1>The Haukai Restaurant</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href='#'>Reservations</a></li>
+                <li><a href='#'>Menu</a></li>
+                <li><a href='#'>Home</a></li>
+                <li><a href='#'>Contact</a></li>
+                <li><a href='#'>Hours</a></li>
+            </ul>
+        </nav>
+        <h1>A true Bay of Islands experience</h1>
+        <p>
+            <b>
+                Haukai Restaurant specialises in Māori kai and is based in the Bay of Islands. It was started by a
+                couple who are keen on creating a business that would appeal to locals and tourists visiting the area. 
+            </b>
+        </p>
+    </body>
+</html>
