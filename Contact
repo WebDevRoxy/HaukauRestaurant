@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8">
         <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="CSS/ContactCSS.css"/>
     </head>
     <body>
         <header>
@@ -12,26 +13,31 @@
                 <li><a href='#'>Reservations</a></li>
                 <li><a href='#'>Menu</a></li>
                 <li><a href='#'>Home</a></li>
-                <li><a href='#'>Contact</a></li>
+                <li><a href='#' class="selected">Contact</a></li>
                 <li><a href='#'>Hours</a></li>
             </ul>
         </nav>
-        <h1>Contact Us</h1>
-        <p>
-            <b>
-                1 Island Street
-                <br>
-                Kerikeri, Bay of Islands
-                <br>
-                09 401 4019
-                <br>
-                The Haukai Restaurant's Email Address
-            </b>
-        </p>
-        <li><a href='#'>Instagram</a></li>
-        <li><a href='#'>Facebook</a></li>
-        <iframe src="https://xxxxxx" width="600" height="450"
-        frameborder="0" style="border:0;" allowfullscreen="" 
-        ariahidden="false" tabindex="0"></iframe>
+        <div class="contactInfo">
+            <h1>Contact Us</h1>
+            <div>
+                <p>
+                    <b>
+                        1 Island Street
+                        <br>
+                        Kerikeri, Bay of Islands
+                        <br>
+                        09 401 4019
+                        <br>
+                        The Haukai Restaurant's Email Address
+                    </b>
+                </p>
+            </div>
+            <img src="xxxx" alt="The Haukai Restaurant's exterior">
+        </div>
+        <div class="map">
+            <iframe src="https://xxxxxx" width="600" height="450"
+            frameborder="0" style="border:0;" allowfullscreen="" 
+            ariahidden="false" tabindex="0"></iframe>
+        </div>
     </body>
 </html>

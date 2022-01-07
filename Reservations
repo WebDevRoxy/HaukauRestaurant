@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8">
         <title>Reservations</title>
+        <link rel="stylesheet" type="text/css" href="CSS/ReservationsCSS.css"/>
     </head>
     <body>
         <header>
@@ -9,28 +10,20 @@
         </header>
         <nav>
             <ul>
-                <li><a href='#'>Reservations</a></li>
+                <li><a href='#' class="selected">Reservations</a></li>
                 <li><a href='#'>Menu</a></li>
                 <li><a href='#'>Home</a></li>
                 <li><a href='#'>Contact</a></li>
                 <li><a href='#'>Hours</a></li>
             </ul>
         </nav>
-        <h3>Open: 6pm to 10pm, Monday to Thursday
-            <br>
-            5pm to 10pm, Friday to Sunday
-        </h3>
-        <h1>Booked Times</h1>
-        <p>
-            <b>
-                
-            </b>
-        </p>
-        <h1>Make a Booking</h1>
-        <p>
-            <b>
-                
-            </b>
-        </p>
+        <div class="booking">
+            <h1>Make a Booking</h1>
+            <p>
+                <b>
+                    
+                </b>
+            </p>
+        </div>
     </body>
 </html>

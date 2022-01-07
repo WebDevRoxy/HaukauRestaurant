@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8">
         <title>Hours</title>
+        <link rel="stylesheet" type="text/css" href="CSS/HoursCSS.css"/>
     </head>
     <body>
         <header>
@@ -13,13 +14,15 @@
                 <li><a href='#'>Menu</a></li>
                 <li><a href='#'>Home</a></li>
                 <li><a href='#'>Contact</a></li>
-                <li><a href='#'>Hours</a></li>
+                <li><a href='#' class="selected">Hours</a></li>
             </ul>
         </nav>
-        <h1>Hours</h1>
-        <h2>Open: 6pm to 10pm, Monday to Thursday
-            <br>
-            5pm to 10pm, Friday to Sunday
-        </h2>
+        <div class=hours>
+            <h1>Hours</h1>
+            <h2>Open: 6pm to 10pm, Monday to Thursday
+                <br>
+                5pm to 10pm, Friday to Sunday
+            </h2>
+        </div>
     </body>
 </html>

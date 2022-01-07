@@ -1,0 +1,27 @@
+appetizers{
+    float: right;
+}
+
+main{
+    float: left;
+}
+
+dessert{
+    float: right;
+}
+
+beverages{
+    float: left;
+}
+
+white{
+
+}
+
+beerCider{
+
+}
+
+nonAlcoholic{
+
+}
