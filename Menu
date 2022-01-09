@@ -1,6 +1,6 @@
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">>
         <title>Menu</title>
     </head>
     <body>
@@ -31,7 +31,10 @@
                 <li>Seafood Basket</li>
                     <p>Crumbed mussels, salt and pepper squid, crumbed hoki bites and garlic prawns.</p>
             </ul>
-            <img src="xxxx" alt="Appetizer">
+            <img src="C:/Projects/HaukaiRestaurant/images/appertizers" alt="Appetizer">
+            <figcaption>
+            
+            </figcaption>
         </div>
         <div class="main">
             <h1>Main</h1>
@@ -50,7 +53,10 @@
                 <li>Venison</li>
                     <p>Venison crusted with horopito, served with glazed plums, cabbage salad and red wine Jus.</p>
             </ul>
-            <img src="xxxx" alt="Main">
+            <img src="C:/Projects/HaukaiRestaurant/images/main" alt="Main">
+            <figcaption>
+            
+            </figcaption>
         </div>
         <div class="dessert">
             <h1>Dessert</h1>
@@ -64,7 +70,10 @@
                 <li>Banoffee Pie</li>
                     <p>Toffee, fresh bananas and fresh cream. </p>
             </ul>
-            <img src="xxxx" alt="Dessert">
+            <img src="C:/Projects/HaukaiRestaurant/images/dessert" alt="Dessert">
+            <figcaption>
+            
+            </figcaption>
         </div>
         <div class="beverages">
             <h1>Beverages</h1>
@@ -116,7 +125,10 @@
                     <li>Tea</li>
                 </ul>
             </div>
-            <img src="xxxx" alt="Drink">
+            <img src="C:/Projects/HaukaiRestaurant/images/drinks" alt="Drink">
+            <figcaption>
+            
+            </figcaption>
         </div>
     </body>
 </html>

@@ -1,6 +1,6 @@
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">>
         <title>Reservations</title>
         <link rel="stylesheet" type="text/css" href="CSS/ReservationsCSS.css"/>
     </head>
@@ -19,11 +19,10 @@
         </nav>
         <div class="booking">
             <h1>Make a Booking</h1>
-            <p>
-                <b>
-                    
-                </b>
-            </p>
+            <div class="makeBooking">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScura5BmblKu_c4Eeha858nXiSGBsuNrN7eppG40qiKTfDS6g/viewform?embedded=true"
+                width="640" height="1156" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
         </div>
     </body>
 </html>
