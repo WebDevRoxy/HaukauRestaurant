@@ -1,27 +1,53 @@
-appetizers{
+.appetizers ul li p{
+    background-color: white;
     float: right;
 }
 
-main{
+
+.mains ul li p{
+    background-color: white;
     float: left;
 }
 
-dessert{
+
+.dessert ul li p{
+    background-color: white;
     float: right;
 }
 
-beverages{
-    float: left;
+.menuContainer ul{
+    background-color: white;
+    font-size: 1.1vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #75624B;
 }
 
-white{
-
+.menuContainer li{
+    display: block;
+    color: #9D4C3C;
+    font-weight: bold;
 }
 
-beerCider{
-
+.menuContainer p{
+    font-size: 1.1vw;
+    background-color: white;
 }
 
-nonAlcoholic{
-
+.menuContainer h1{
+    font-size: 1.8vw;
+    color: #445659;
 }
+
+.beverages h3{
+    font-size: 1.1vw;
+    color: #9D4C3C;
+    font-weight: bold;
+} 
+
+.beverages ul li{
+    font-size: 1.1vw;
+    color: #75624B;
+    font-weight: normal;
+} 

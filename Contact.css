@@ -1,13 +1,16 @@
-contactInfo{
-    background-image: url(xxxxx);
-    background-color:antiquewhite;
-    font-family: Raleway, Arial,  Tahoma, sans-serif;
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.contactInfo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 img{
-
-}
-
-map{
-
+    width: 100%;
 }

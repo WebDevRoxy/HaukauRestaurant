@@ -3,12 +3,16 @@
     <head>
         <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">>
         <title>Menu</title>
+        <link rel="stylesheet" type="text/css" href="Menu.css"/>
+        <link rel="stylesheet" type="text/css" href="NavBar.css"/>
     </head>
     <body>
-        <header>
-            <h1>The Haukai Restaurant</h1>
-        </header>
-        <link rel="stylesheet" type="text/css" href="CSS/MenuCSS.css"/>
+        <div class="logo">
+            <a href='C:/Projects/HaukaiRestaurant/HomePage.html'>
+                <img src="C:/Projects/HaukaiRestaurant/images/Logo.png" alt="The Haukai Restaurant's Logo" max-width="100%">
+            </a>
+        </div>
+        <link rel="stylesheet" type="text/css" href="Menu.css"/>
         <div class="nav">
             <ul>
                 <li><a href='C:/Projects/HaukaiRestaurant/HomePage.html'>Home</a></li>
@@ -18,118 +22,120 @@
                 <li style="float: right"><a href='C:/Projects/HaukaiRestaurant/Contact.html'>Contact</a></li>
             </ul>
         </div>
-        <div class="appetizers">
-            <h1>Appetizers</h1>
-            <ul>
-                <li>Rewena Bread</li>
-                    <p>Traditional Maori Bread</p>
-                <li>Paua Fritter</li>
-                    <p>Finely diced pieces of paua, served with a side salad and horopito dressing.</p>
-                <li>Raw Fish</li>
-                    <p>Dried snapper fish marinated in coconut cream, served with tomatoes and spring onions.</p>
-                <li>Poached Salmon</li>
-                    <p>Salmon poached in an orange and pistachio glaze, served with rewena bread.</p>
-                <li>Seafood Basket</li>
-                    <p>Crumbed mussels, salt and pepper squid, crumbed hoki bites and garlic prawns.</p>
-            </ul>
-            <img src="C:/Projects/HaukaiRestaurant/images/appertizers" alt="Appetizer">
-            <figcaption>
-            
-            </figcaption>
-        </div>
-        <div class="main">
-            <h1>Main</h1>
-            <ul>
-                <li>Fish of the Day</li>
-                    <p>Beer battered fish and kumara fries, served with a side salad and homemade tartare.</p>
-                <li>Mussels and Scallops</li>
-                    <p>Steamed mussel & scallop mousse, honey and soy broth.</p>
-                <li>Seafood Chowder</li>
-                    <p>Creamy chowder filled with terakihi, prawn, hoki, scallops and mussels, served with flatbread.</p>
-                <li>Pork Belly</li>
-                    <p>Slow cooked pork belly served on a bed of apple slaw with roasted kumara, and crispy noodle.</p>
-                <li>Lamb Steak</li>
-                    <p>New Zealand Lamb coated in a kawakawa crumb, served with Dijon mustard glazed carrots, roasted butternut
-                        squash and a mushroom Jus.</p>
-                <li>Venison</li>
-                    <p>Venison crusted with horopito, served with glazed plums, cabbage salad and red wine Jus.</p>
-            </ul>
-            <img src="C:/Projects/HaukaiRestaurant/images/main" alt="Main">
-            <figcaption>
-            
-            </figcaption>
-        </div>
-        <div class="dessert">
-            <h1>Dessert</h1>
-            <ul>
-                <li>Kapiti Ice Cream</li>
-                    <p>Check for daily specials.</p>
-                <li>Steam Pudding</li>
-                    <p>Golden syrup flavoured steam pudding, served with vanilla ice cream</p>
-                <li>Mini Pavlova</li>
-                    <p>Mini Pavlova served with kawakawa and lemon infused cream and fresh fruit.</p>
-                <li>Banoffee Pie</li>
-                    <p>Toffee, fresh bananas and fresh cream. </p>
-            </ul>
-            <img src="C:/Projects/HaukaiRestaurant/images/dessert" alt="Dessert">
-            <figcaption>
-            
-            </figcaption>
-        </div>
-        <div class="beverages">
-            <h1>Beverages</h1>
-            <div class="red">
-                <h3>Red</h3>
+        <div class="menuContainer">
+            <div class="appetizers">
+                <h1>Appetizers</h1>
                 <ul>
-                    <li>Terrace Edge Pinot Noir, 2012, Wairarapa</li>
-                    <li>Altitude Pinot Noir, 2012, Wairarapa</li>
-                    <li>Greystone Pinot Noir, 2012, Wairarapa</li>
-                    <li>Terrace Edge, Syrah, 2012, Wairarapa</li>
-                    <li>Altitude Syrah, 2010, Malborough</li>
-                    <li>Greystone Syrah, 2012, Wairarapa</li>
-                    <li>Pegasus Bay Merlot, 2013, Wairarapa</li>
-                    <li>Pegasus Bay Pinot Noir, 2013, Wairarapa</li>
+                    <li>Rewena Bread</li>
+                        <p>Traditional Maori Bread</p>
+                    <li>Paua Fritter</li>
+                        <p>Finely diced pieces of paua, served with a side salad and horopito dressing.</p>
+                    <li>Raw Fish</li>
+                        <p>Dried snapper fish marinated in coconut cream, served with tomatoes and spring onions.</p>
+                    <li>Poached Salmon</li>
+                        <p>Salmon poached in an orange and pistachio glaze, served with rewena bread.</p>
+                    <li>Seafood Basket</li>
+                        <p>Crumbed mussels, salt and pepper squid, crumbed hoki bites and garlic prawns.</p>
                 </ul>
+                <img src="C:/Projects/HaukaiRestaurant/images/appertizers" alt="Appetizer">
+                <figcaption>
+                
+                </figcaption>
             </div>
-            <div class="white">
-                <h3>White</h3>
+            <div class="mains">
+                <h1>Main</h1>
                 <ul>
-                    <li>Spade Oak Pinot Gris, 2011, Gisborne</li>
-                    <li>Maude Pinot Gris, 2017, Otago</li>
-                    <li>Charles Wiffen Chardonnay, 2013, Otago</li>
-                    <li>Amisfield Riesling, 2016, Otago</li>
-                    <li>Lamont Riesling, 2010, Otago</li>
-                    <li>Elephant Hill Viognier, 2013, Hawkes Bay</li>
-                    <li>Folium Sauvignon Blanc, 2011, Malborough</li>
-                    <li>Billecart-Salmon Brut Reserve, France</li>
+                    <li>Fish of the Day</li>
+                        <p>Beer battered fish and kumara fries, served with a side salad and homemade tartare.</p>
+                    <li>Mussels and Scallops</li>
+                        <p>Steamed mussel & scallop mousse, honey and soy broth.</p>
+                    <li>Seafood Chowder</li>
+                        <p>Creamy chowder filled with terakihi, prawn, hoki, scallops and mussels, served with flatbread.</p>
+                    <li>Pork Belly</li>
+                        <p>Slow cooked pork belly served on a bed of apple slaw with roasted kumara, and crispy noodle.</p>
+                    <li>Lamb Steak</li>
+                        <p>New Zealand Lamb coated in a kawakawa crumb, served with Dijon mustard glazed carrots, roasted butternut
+                            squash and a mushroom Jus.</p>
+                    <li>Venison</li>
+                        <p>Venison crusted with horopito, served with glazed plums, cabbage salad and red wine Jus.</p>
                 </ul>
+                <img src="C:/Projects/HaukaiRestaurant/images/main" alt="Main">
+                <figcaption>
+                
+                </figcaption>
             </div>
-            <div class="beerCider">
-                <h3>Beer and Cider</h3>
+            <div class="dessert">
+                <h1>Dessert</h1>
                 <ul>
-                    <li>Garage Project Range</li>
-                    <li>Tuatara Range</li>
-                    <li>Panhead Range</li>
-                    <li>Coopers Ale</li>
-                    <li>Heineken</li>
-                    <li>Moa Cider</li>
-                    <li>Crooked Cider</li>
+                    <li>Kapiti Ice Cream</li>
+                        <p>Check for daily specials.</p>
+                    <li>Steam Pudding</li>
+                        <p>Golden syrup flavoured steam pudding, served with vanilla ice cream</p>
+                    <li>Mini Pavlova</li>
+                        <p>Mini Pavlova served with kawakawa and lemon infused cream and fresh fruit.</p>
+                    <li>Banoffee Pie</li>
+                        <p>Toffee, fresh bananas and fresh cream. </p>
                 </ul>
+                <img src="C:/Projects/HaukaiRestaurant/images/dessert" alt="Dessert">
+                <figcaption>
+                
+                </figcaption>
             </div>
-            <div class="nonAlcoholic">
-                <h3>Non-Alcoholic</h3>
-                <ul>
-                    <li>Mineral Water</li>
-                    <li>Soft Drinks</li>
-                    <li>Juice</li>
-                    <li>Coffee</li>
-                    <li>Tea</li>
-                </ul>
+            <div class="beverages">
+                <h1>Beverages</h1>
+                <div class="red">
+                    <h3>Red</h3>
+                    <ul>
+                        <li>Terrace Edge Pinot Noir, 2012, Wairarapa</li>
+                        <li>Altitude Pinot Noir, 2012, Wairarapa</li>
+                        <li>Greystone Pinot Noir, 2012, Wairarapa</li>
+                        <li>Terrace Edge, Syrah, 2012, Wairarapa</li>
+                        <li>Altitude Syrah, 2010, Malborough</li>
+                        <li>Greystone Syrah, 2012, Wairarapa</li>
+                        <li>Pegasus Bay Merlot, 2013, Wairarapa</li>
+                        <li>Pegasus Bay Pinot Noir, 2013, Wairarapa</li>
+                    </ul>
+                </div>
+                <div class="white">
+                    <h3>White</h3>
+                    <ul>
+                        <li>Spade Oak Pinot Gris, 2011, Gisborne</li>
+                        <li>Maude Pinot Gris, 2017, Otago</li>
+                        <li>Charles Wiffen Chardonnay, 2013, Otago</li>
+                        <li>Amisfield Riesling, 2016, Otago</li>
+                        <li>Lamont Riesling, 2010, Otago</li>
+                        <li>Elephant Hill Viognier, 2013, Hawkes Bay</li>
+                        <li>Folium Sauvignon Blanc, 2011, Malborough</li>
+                        <li>Billecart-Salmon Brut Reserve, France</li>
+                    </ul>
+                </div>
+                <div class="beerCider">
+                    <h3>Beer and Cider</h3>
+                    <ul>
+                        <li>Garage Project Range</li>
+                        <li>Tuatara Range</li>
+                        <li>Panhead Range</li>
+                        <li>Coopers Ale</li>
+                        <li>Heineken</li>
+                        <li>Moa Cider</li>
+                        <li>Crooked Cider</li>
+                    </ul>
+                </div>
+                <div class="nonAlcoholic">
+                    <h3>Non-Alcoholic</h3>
+                    <ul>
+                        <li>Mineral Water</li>
+                        <li>Soft Drinks</li>
+                        <li>Juice</li>
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                    </ul>
+                </div>
+                <img src="C:/Projects/HaukaiRestaurant/images/drinks" alt="Drink">
+                <figcaption>
+                
+                </figcaption>
             </div>
-            <img src="C:/Projects/HaukaiRestaurant/images/drinks" alt="Drink">
-            <figcaption>
-            
-            </figcaption>
         </div>
     </body>
 </html>

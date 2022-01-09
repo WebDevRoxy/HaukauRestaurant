@@ -1,5 +1,4 @@
 body{
-  background-image: url(xxxxx);
   background-color:white;
   font-family: Verdana, Geneva, Tahoma, sans-serif, Arial,  Tahoma, sans-serif;
 }
@@ -16,9 +15,6 @@ ul{
   padding: 0;
   overflow: hidden;
   background-color: #445659;
-  position: -webkit-sticky; /* for Safari */
-  position: sticky;
-  top: 0;
   width: 100%;
 }
 
@@ -35,15 +31,53 @@ li:last-child {
 
 
 li a {
-display: block;
-color: white;
-text-align: center;
-padding: 1.7vw 1.9vw;
-text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1.7vw 1.9vw;
+  text-decoration: none;
 }
 
 li a:hover {
+  background-color: #9D4C3C;
+  font-size: 2.4vw;
+  transition: 0.4s;
+}
+
+img{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 600px) {   
+  img{
+      width: 40%;
+    } 
+}
+
+@media screen and (min-width: 950px) {   
+  li{
+    font-size: 1.1vw;
+  }
+
+  li a {
+    padding: 1vw 1.1vw;
+  }
+  
+  li a:hover {
+    font-size: 1.4vw;
+  }
+}
+
+.selected{
 background-color: #9D4C3C;
-font-size: 2.4vw;
-transition: 0.4s;
+}
+
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
