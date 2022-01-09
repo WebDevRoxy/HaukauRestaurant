@@ -26,6 +26,7 @@ li{
   float: left;
   font-size: 2vw;
   border-right: 0.12vw solid white;
+  list-style: none;
 }
 
 li:last-child {
