@@ -1,36 +1,35 @@
-.appetizers ul li p{
+li span{
+    color: #75624B;
+    font-size: 1.1vw;
+    font-weight: normal;
+    padding-left: 1.1vw;
     background-color: white;
-    float: right;
+}
+
+body{
+    text-align: center;
 }
 
 
-.mains ul li p{
-    background-color: white;
-    float: left;
-}
-
-
-.dessert ul li p{
-    background-color: white;
-    float: right;
-}
 
 .menuContainer ul{
     background-color: white;
-    font-size: 1.1vw;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    color: #75624B;
+
+}
+
+img{
+    text-align: right;
 }
 
 .menuContainer li{
     display: block;
     color: #9D4C3C;
     font-weight: bold;
+    clear: left;
 }
 
-.menuContainer p{
+.menuContainer span{
     font-size: 1.1vw;
     background-color: white;
 }

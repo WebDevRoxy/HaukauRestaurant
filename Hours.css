@@ -1,5 +1,17 @@
-hours{
-    background-image: url(xxxxx);
-    background-color:black;
-    font-family: Raleway, Arial,  Tahoma, sans-serif;
+.hours h1{
+    color: #9D4C3C;
+    font-size: 1.8vw;
+    text-align: center;
+}
+
+.hours h2 span{
+    color: #445659;
+    font-weight: bold;
+}
+
+.hours h2{
+    color: #75624B;
+    font-weight: normal;
+    font-size: 1.1vw;
+    text-align: center;
 }
