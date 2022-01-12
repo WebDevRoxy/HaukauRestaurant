@@ -14,23 +14,22 @@
     text-align: center;
 }
 
+@media screen and (min-width: 800px) {   
+    .contactInfo h2{
+      font-size: 18px;
+    }
+
+    .contactInfo h1{
+      font-size: 20px;
+    }
+}
 
 @media screen and (max-width: 801px) {   
     .contactInfo h2{
-      font-size: 2.1vw;
+      font-size: 16px;
     }
 
     .contactInfo h1{
-      font-size: 2.4vw;
-    }
-  }
-
-@media screen and (min-width: 800px) {   
-    .contactInfo h2{
-      font-size: 1.5vw;
-    }
-
-    .contactInfo h1{
-      font-size: 1.8vw;
+      font-size: 18px;
     }
   }

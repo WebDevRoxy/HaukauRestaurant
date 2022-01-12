@@ -52,47 +52,55 @@ img{
     font-weight: normal;
 } 
 
-@media screen and (max-width: 801px) {   
+@media screen and (min-width: 800px) {   
     .wrapper li{
-        font-size: 1.8vw;
+        font-size: 16px;
       }
   
       .wrapper li span{
-        font-size: 1.8vw;
+        font-size: 16px;
       }
   
       .beverages h3{
-          font-size: 1.8vw;
+          font-size: 16px;
       } 
       
       .beverages ul li{
-          font-size: 1.8vw;
+          font-size: 16px;
       }
 
     .menuContainer h1{
-        font-size: 2.4vw;
+        font-size: 20px;
     }
+
+    img{
+        width: 70%;
+      }
   }
 
-@media screen and (min-width: 800px) {   
+@media screen and (max-width: 801px) {   
     .wrapper li{
-      font-size: 1.4vw;
+      font-size: 14px;
     }
 
     .wrapper li span{
-      font-size: 1.4vw;
+      font-size: 14px;
     }
 
     .beverages h3{
-        font-size: 1.4vw;
+        font-size: 14px;
     } 
     
     .beverages ul li{
-        font-size: 1.4vw;
+        font-size: 14px;
     }
 
     .menuContainer h1{
-        font-size: 1.8vw;
+        font-size: 18px;
     }
+
+    img{
+        width: 90%;
+      }
   }
 
