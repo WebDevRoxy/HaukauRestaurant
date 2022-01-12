@@ -1,13 +1,11 @@
+/*Shared elements between pages*/
+
 body {
   background-color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, Tahoma, sans-serif;
 }
 
-header {
-  color: #445659;
-  background-color: #ffffff;
-  text-align: center;
-}
+/*Navigation bar*/
 
 ul {
   color: #75624B;
@@ -49,6 +47,10 @@ li a:hover {
   margin-right: auto;
 }
 
+.selected {
+  background-color: #9D4C3C;
+}
+
 @media screen and (min-width: 800px) {
   li {
     font-size: 16px;
@@ -61,10 +63,7 @@ li a:hover {
   }
 }
 
-.selected {
-  background-color: #9D4C3C;
-}
-
+/*Shared iFrame format between pages*/
 iframe {
   display: block;
   margin-left: auto;
@@ -72,6 +71,7 @@ iframe {
   width: 100%;
 }
 
+/*Shared image format between pages*/
 img {
   display: block;
   margin-left: auto;

@@ -29,11 +29,7 @@ figcaption {
     font-size: 20px;
   }
 
-  span {
-    font-size: 16px;
-  }
-
-  p {
+  span, p, figcaption {
     font-size: 16px;
   }
 
@@ -44,10 +40,6 @@ figcaption {
   .privacy {
     font-size: 14px;
   }
-
-  figcaption {
-    font-size: 16px;
-  }
 }
 
 @media screen and (max-width: 801px) {
@@ -55,11 +47,7 @@ figcaption {
     font-size: 18px;
   }
 
-  span {
-    font-size: 14px;
-  }
-
-  p {
+  span, p, figcaption {
     font-size: 14px;
   }
 
@@ -69,9 +57,5 @@ figcaption {
 
   .privacy {
     font-size: 12px;
-  }
-
-  figcaption {
-    font-size: 14px;
   }
 }
