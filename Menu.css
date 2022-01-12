@@ -1,11 +1,11 @@
-li span{
+li span {
     color: #75624B;
     font-weight: normal;
     padding-left: 1.1vw;
     background-color: white;
 }
 
-body{
+body {
     text-align: center;
 }
 
@@ -14,16 +14,16 @@ body{
     margin-bottom: 2.7vw;
 }
 
-.menuContainer ul{
+.menuContainer ul {
     background-color: white;
-    list-style-type: none; 
+    list-style-type: none;
 }
 
-img{
+img {
     text-align: right;
 }
 
-.menuContainer li{
+.menuContainer li {
     display: block;
     color: #9D4C3C;
     font-weight: bold;
@@ -31,76 +31,75 @@ img{
     margin-bottom: 0.7vw;
 }
 
-.menuContainer span{
+.menuContainer span {
     background-color: white;
 }
 
-.menuContainer h1{
+.menuContainer h1 {
     font-size: 2.2vw;
     color: #445659;
 }
 
-.beverages h3{
+.beverages h3 {
     font-size: 2vw;
     color: #9D4C3C;
     font-weight: bold;
-} 
+}
 
-.beverages ul li{
+.beverages ul li {
     font-size: 2vw;
     color: #75624B;
     font-weight: normal;
-} 
+}
 
-@media screen and (min-width: 800px) {   
-    .wrapper li{
+@media screen and (min-width: 800px) {
+    .wrapper li {
         font-size: 16px;
-      }
-  
-      .wrapper li span{
-        font-size: 16px;
-      }
-  
-      .beverages h3{
-          font-size: 16px;
-      } 
-      
-      .beverages ul li{
-          font-size: 16px;
-      }
+    }
 
-    .menuContainer h1{
+    .wrapper li span {
+        font-size: 16px;
+    }
+
+    .beverages h3 {
+        font-size: 16px;
+    }
+
+    .beverages ul li {
+        font-size: 16px;
+    }
+
+    .menuContainer h1 {
         font-size: 20px;
     }
 
-    img{
+    img {
         width: 70%;
-      }
-  }
-
-@media screen and (max-width: 801px) {   
-    .wrapper li{
-      font-size: 14px;
     }
+}
 
-    .wrapper li span{
-      font-size: 14px;
-    }
-
-    .beverages h3{
-        font-size: 14px;
-    } 
-    
-    .beverages ul li{
+@media screen and (max-width: 801px) {
+    .wrapper li {
         font-size: 14px;
     }
 
-    .menuContainer h1{
+    .wrapper li span {
+        font-size: 14px;
+    }
+
+    .beverages h3 {
+        font-size: 14px;
+    }
+
+    .beverages ul li {
+        font-size: 14px;
+    }
+
+    .menuContainer h1 {
         font-size: 18px;
     }
 
-    img{
+    img {
         width: 90%;
-      }
-  }
-
+    }
+}

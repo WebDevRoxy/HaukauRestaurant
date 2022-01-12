@@ -1,55 +1,53 @@
-.text{
+.text {
   position: relative;
   text-align: center;
 }
 
-h1{
+h1 {
   color: #9D4C3C;
 }
 
-span{
+span {
   color: #445659;
   font-weight: bold;
 }
 
-p{
+p {
   color: #75624B;
 }
 
-@media screen and (min-width: 800px) {   
-  h1{
+@media screen and (min-width: 800px) {
+  h1 {
     font-size: 20px;
   }
 
-  span{
+  span {
     font-size: 16px;
   }
 
-  p{
+  p {
     font-size: 16px;
   }
 
-  img{
+  img {
     width: 70%;
   }
 }
 
-@media screen and (max-width: 801px) {   
-  h1{
+@media screen and (max-width: 801px) {
+  h1 {
     font-size: 18px;
   }
 
-  span{
+  span {
     font-size: 14px;
   }
 
-  p{
+  p {
     font-size: 14px;
   }
 
-  img{
+  img {
     width: 90%;
   }
 }
-
-

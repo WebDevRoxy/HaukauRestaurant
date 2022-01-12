@@ -1,35 +1,35 @@
-.contactInfo h1{
-    color: #9D4C3C;
-    text-align: center;
+.contactInfo h1 {
+  color: #9D4C3C;
+  text-align: center;
 }
 
-.contactInfo h2 span{
-    color: #445659;
-    font-weight: bold;
+.contactInfo h2 {
+  color: #75624B;
+  font-weight: normal;
+  text-align: center;
 }
 
-.contactInfo h2{
-    color: #75624B;
-    font-weight: normal;
-    text-align: center;
+.contactInfo h2 span {
+  color: #445659;
+  font-weight: bold;
 }
 
-@media screen and (min-width: 800px) {   
-    .contactInfo h2{
-      font-size: 18px;
-    }
-
-    .contactInfo h1{
-      font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 801px) {   
-    .contactInfo h2{
-      font-size: 16px;
-    }
-
-    .contactInfo h1{
-      font-size: 18px;
-    }
+@media screen and (min-width: 800px) {
+  .contactInfo h1 {
+    font-size: 20px;
   }
+
+  .contactInfo h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 801px) {
+  .contactInfo h1 {
+    font-size: 18px;
+  }
+
+  .contactInfo h2 {
+    font-size: 16px;
+  }
+}

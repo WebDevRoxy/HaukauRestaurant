@@ -1,35 +1,35 @@
-.hours h1{
-    color: #9D4C3C;
-    text-align: center;
+.hours h1 {
+  color: #9D4C3C;
+  text-align: center;
 }
 
-.hours h2 span{
-    color: #445659;
-    font-weight: bold;
+.hours h2 span {
+  color: #445659;
+  font-weight: bold;
 }
 
-.hours h2{
-    color: #75624B;
-    font-weight: normal;
-    text-align: center;
+.hours h2 {
+  color: #75624B;
+  font-weight: normal;
+  text-align: center;
 }
 
-@media screen and (min-width: 800px) {   
-    .hours h2{
-      font-size: 18px;
-    }
-
-    .hours h1{
-      font-size: 20px;
-    }
+@media screen and (min-width: 800px) {
+  .hours h1 {
+    font-size: 20px;
   }
 
-  @media screen and (max-width: 801px) {   
-    .hours h2{
-      font-size: 16px;
-    }
-
-    .hours h1{
-      font-size: 18px;
-    }
+  .hours h2 {
+    font-size: 18px;
   }
+}
+
+@media screen and (max-width: 801px) {
+  .hours h1 {
+    font-size: 18px;
+  }
+  
+  .hours h2 {
+    font-size: 16px;
+  }
+}
