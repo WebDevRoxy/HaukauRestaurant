@@ -5,6 +5,13 @@ li span {
     background-color: white;
 }
 
+figcaption {
+    color: #75624B;
+    display: block;
+    margin-bottom: 0.7vw;
+    text-align: center;
+  }
+
 body {
     text-align: center;
 }
@@ -36,6 +43,11 @@ img {
 }
 
 .menuContainer h1 {
+    font-size: 2.2vw;
+    color: #9D4C3C;
+}
+
+.menuContainer h2 {
     font-size: 2.2vw;
     color: #445659;
 }
@@ -73,8 +85,17 @@ img {
         font-size: 20px;
     }
 
+    .menuContainer h2 {
+        font-size: 18px;
+    }
+
     img {
         width: 70%;
+    }
+
+
+    figcaption {
+        font-size: 16px;
     }
 }
 
@@ -95,11 +116,19 @@ img {
         font-size: 14px;
     }
 
-    .menuContainer h1 {
+    .menuContainer h2 {
         font-size: 18px;
+    }
+
+    .menuContainer h2 {
+        font-size: 16px;
     }
 
     img {
         width: 90%;
+    }
+
+    figcaption {
+        font-size: 14px;
     }
 }

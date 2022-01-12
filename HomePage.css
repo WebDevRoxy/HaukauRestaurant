@@ -12,8 +12,16 @@ span {
   font-weight: bold;
 }
 
-p {
+.privacy {
+  padding-top: 3.5vw;
   color: #75624B;
+}
+
+figcaption {
+  color: #75624B;
+  display: block;
+  margin-bottom: 0.7vw;
+  text-align: center;
 }
 
 @media screen and (min-width: 800px) {
@@ -32,6 +40,14 @@ p {
   img {
     width: 70%;
   }
+
+  .privacy {
+    font-size: 14px;
+  }
+
+  figcaption {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 801px) {
@@ -49,5 +65,13 @@ p {
 
   img {
     width: 90%;
+  }
+
+  .privacy {
+    font-size: 12px;
+  }
+
+  figcaption {
+    font-size: 14px;
   }
 }
