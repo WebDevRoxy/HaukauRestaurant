@@ -1,6 +1,5 @@
 li span{
     color: #75624B;
-    font-size: 1.1vw;
     font-weight: normal;
     padding-left: 1.1vw;
     background-color: white;
@@ -10,12 +9,14 @@ body{
     text-align: center;
 }
 
-
+.wrapper {
+    display: inline-block;
+    margin-bottom: 2.7vw;
+}
 
 .menuContainer ul{
     background-color: white;
-    list-style-type: none;
-
+    list-style-type: none; 
 }
 
 img{
@@ -27,26 +28,71 @@ img{
     color: #9D4C3C;
     font-weight: bold;
     clear: left;
+    margin-bottom: 0.7vw;
 }
 
 .menuContainer span{
-    font-size: 1.1vw;
     background-color: white;
 }
 
 .menuContainer h1{
-    font-size: 1.8vw;
+    font-size: 2.2vw;
     color: #445659;
 }
 
 .beverages h3{
-    font-size: 1.1vw;
+    font-size: 2vw;
     color: #9D4C3C;
     font-weight: bold;
 } 
 
 .beverages ul li{
-    font-size: 1.1vw;
+    font-size: 2vw;
     color: #75624B;
     font-weight: normal;
 } 
+
+@media screen and (max-width: 801px) {   
+    .wrapper li{
+        font-size: 1.8vw;
+      }
+  
+      .wrapper li span{
+        font-size: 1.8vw;
+      }
+  
+      .beverages h3{
+          font-size: 1.8vw;
+      } 
+      
+      .beverages ul li{
+          font-size: 1.8vw;
+      }
+
+    .menuContainer h1{
+        font-size: 2.4vw;
+    }
+  }
+
+@media screen and (min-width: 800px) {   
+    .wrapper li{
+      font-size: 1.4vw;
+    }
+
+    .wrapper li span{
+      font-size: 1.4vw;
+    }
+
+    .beverages h3{
+        font-size: 1.4vw;
+    } 
+    
+    .beverages ul li{
+        font-size: 1.4vw;
+    }
+
+    .menuContainer h1{
+        font-size: 1.8vw;
+    }
+  }
+

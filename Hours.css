@@ -1,6 +1,5 @@
 .hours h1{
     color: #9D4C3C;
-    font-size: 1.8vw;
     text-align: center;
 }
 
@@ -12,6 +11,25 @@
 .hours h2{
     color: #75624B;
     font-weight: normal;
-    font-size: 1.1vw;
     text-align: center;
 }
+
+@media screen and (max-width: 801px) {   
+    .hours h2{
+      font-size: 2.1vw;
+    }
+
+    .hours h1{
+      font-size: 2.4vw;
+    }
+  }
+
+@media screen and (min-width: 800px) {   
+    .hours h2{
+      font-size: 1.5vw;
+    }
+
+    .hours h1{
+      font-size: 1.8vw;
+    }
+  }
