@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Restricted access"
-AuthUserFile C:/Projects/HaukaiRestaurant/Roster.htpasswd
+AuthUserFile Roster.htpasswd
 Require valid-user
